@@ -2,7 +2,7 @@
 
 Backtest LP strategies on perpetual options using real or simulated price data.
 
-**[Live Demo](https://liquidityeverlastingoptions.streamlit.app/)**
+**[Live Demo](https://liquidity-everlasting-options.streamlit.app/)**
 
 ## Overview
 
@@ -22,7 +22,7 @@ A simulator for oracle-dependent everlasting option markets (based on [Deri Prot
 ## Quick Start
 
 ### Live Demo
-Visit **[liquidityeverlastingoptions.streamlit.app](https://liquidityeverlastingoptions.streamlit.app/)**
+Visit **[liquidity-everlasting-options.streamlit.app](https://liquidity-everlasting-options.streamlit.app/)**
 
 ### Local Installation
 
