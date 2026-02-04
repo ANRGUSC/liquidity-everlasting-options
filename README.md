@@ -8,6 +8,10 @@ Backtest LP strategies on perpetual options using real or simulated price data.
 
 A simulator for oracle-dependent everlasting option markets (based on [Deri Protocol](https://docs.deri.io/)) that allows liquidity providers to backtest strategies with different hedging approaches, trader behaviors, and market conditions.
 
+## Disclaimer
+
+This simulator is intended for educational and research purposes. While it models key mechanisms of everlasting option markets, it operates under simplified assumptions and may not fully capture the complexities of real-world DeFi ecosystems, including network latency, gas costs, oracle delays, liquidity fragmentation, and extreme market conditions. Results should be interpreted as directional insights rather than precise predictions.
+
 ## Features
 
 - **Real Historical Data**: Fetch actual prices from CoinGecko (BTC/ETH) or Yahoo Finance (SPY)
@@ -134,6 +138,20 @@ print(f"Total Return: {result.total_return:.2%}")
 - [Deri Protocol Documentation](https://docs.deri.io/)
 - [DPMM Mechanism](https://docs.deri.io/how-it-works/dpmm-proactive-market-making)
 - [Funding Fee](https://docs.deri.io/how-it-works/funding-fee)
+
+## Citation
+
+If you use this simulator for replication, extension, or further research, please cite:
+
+```bibtex
+@inproceedings{mohanty2025everlasting,
+  author={Mohanty, Hardhik and Zaarour, Giovanni and Krishnamachari, Bhaskar},
+  title={Proactive Market Making and Liquidity Analysis for Everlasting Options in DeFi Ecosystems},
+  booktitle={IEEE International Conference on Blockchain and Cryptocurrency (ICBC)},
+  year={2025},
+  doi={10.1109/ICBC64466.2025.11114454}
+}
+```
 
 ## License
 
