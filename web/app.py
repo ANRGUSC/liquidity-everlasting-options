@@ -277,6 +277,9 @@ with st.sidebar:
         trading_fee = st.slider("Trading Fee", 0.01, 0.50, 0.10, 0.01, format="%.2f%%") / 100
         random_seed = st.number_input("Random Seed", 0, 99999, 42)
 
+    st.markdown("---")
+    st.caption("⚠️ **Disclaimer:** This simulator is for educational and research purposes. It operates under simplified assumptions and may not fully capture real-world DeFi complexities. Results should be interpreted as directional insights rather than precise predictions.")
+
 # Main content area
 main_col1, main_col2 = st.columns([2, 1])
 
