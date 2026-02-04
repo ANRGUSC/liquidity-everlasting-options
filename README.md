@@ -27,7 +27,7 @@ Visit **[liquidityeverlastingoptions.streamlit.app](https://liquidityeverlasting
 ### Local Installation
 
 ```bash
-git clone https://github.com/hardhik-99/Liquidity_EverlastingOptions.git
+git clone https://github.com/ANRGUSC/Liquidity_EverlastingOptions.git
 cd Liquidity_EverlastingOptions
 pip install -r requirements.txt
 streamlit run web/app.py
